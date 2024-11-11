@@ -1,0 +1,256 @@
+a:link,
+a:active,
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__container {
+    padding: min(33px, 2.578vw) min(70px, 5.46875vw) 0 min(70px, 5.46875vw);
+}
+
+.site-logo {
+    font-size: 32px;
+    line-height: 95%;
+    font-size: 2.5vw;
+    font-size: calc(0.925vw + min(20px, 1.5625vw));
+}
+
+.header__text {
+    display: none;
+}
+
+.header__menu-container {
+    display: flex;
+    position: static;
+    height: auto;
+    align-items: center;
+}
+
+.header__menu-container .header__menu {
+    flex-direction: row;
+    transform: none;
+    background-color: transparent;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    margin-left: 53px;
+}
+
+.header__nav {
+    flex-direction: row;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-item:not(:first-child) {
+    margin-top: 0;
+}
+
+.header__menu-item {
+    color: #fff;
+    height: fit-content;
+    margin-left: 41px;
+    font-size: calc(0.625vw + min(12px, 1.5625vw));
+}
+
+.header__menu-item:first-child {
+    margin-left: 0;
+}
+
+.header__menu-item a:visited {
+    color: #fff;
+}
+
+.search-container {
+    margin-left: auto;
+    border-bottom: 1px solid #fff;
+    margin-top: -2px;
+}
+
+.search-container__form {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.search-container__input {
+    background-color: transparent;
+    font-size: min(20px, 1.5625vw);
+    color: #fff;
+    width: min(159px, 12.42vw);
+    height: 19px;
+    margin-bottom: 0;
+}
+
+.search-container__input::placeholder {
+    color: #fff;
+    font-size: min(20px, 1.5625vw);
+    width: auto;
+    height: fit-content;
+}
+
+.search-container__search-btn {
+    margin-top: 3px;
+}
+
+.search-container__search-icon {
+    filter: invert(100%);
+}
+
+.header__burger {
+    display: none;
+}
+
+main {
+    background-image: url(../img/background-desktop.webp);
+    padding-top: 125px;
+    height: 100%;
+}
+
+.roadmap {
+    height: 100%;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 90px;
+    font-size: min(100px, 7.03125vw);
+    margin: 0 auto;
+}
+
+.roadmap__container {
+    display: block;
+    height: 593px;
+    -ms-overflow-style: unset;
+    scrollbar-width: unset;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.roadmap__container::-webkit-scrollbar {
+    display: block;
+}
+
+.roadmap__item-container {
+    position: absolute;
+    width: 301px;
+    height: 89px;
+    padding: 0;
+    z-index: 1;
+}
+
+.roadmap__item-svg {
+    right: -1px;
+    top: -10px;
+    z-index: 1;
+}
+
+.roadmap__item-svg img {
+    width: 23px;
+    height: 28px;
+    transform: rotate(-4deg);
+}
+
+.roadmap__item-container:nth-of-type(1) {
+    top: 58px;
+    left: 70px;
+}
+
+.roadmap__item-container:nth-of-type(2) {
+    top: 304px;
+    left: 147px;
+}
+
+.roadmap__item-container:nth-of-type(3) {
+    top: 401px;
+    left: 497px;
+}
+
+.roadmap__item-container:nth-of-type(4) {
+    top: 171px;
+    left: 425px;
+}
+
+.roadmap__item-container:nth-of-type(5) {
+    top: 99px;
+    left: 909px;
+}
+
+.roadmap__item-container:nth-of-type(6) {
+    top: 255px;
+    left: 770px;
+}
+
+.roadmap__item {
+    height: auto;
+    flex-direction: row;
+    padding: 11px 17px;
+    padding-left: 12px;
+    padding-right: 13px;
+    width: fit-content;
+    backdrop-filter: blur(15px);
+}
+
+.roadmap__item-num {
+    margin: 0;
+    width: 51px;
+    height: 51px;
+    padding-top: 6px;
+    padding-right: 0px;
+    font-size: 34px;
+}
+
+div.roadmap__item-container:first-of-type .roadmap__item-num {
+    font-size: 37px;
+    padding-right: 3px;
+}
+
+div.roadmap__item-container:nth-of-type(2) .roadmap__item-num {
+    padding-top: 7px;
+    font-size: 37px;
+    padding-right: 0px;
+}
+
+.roadmap__item-text {
+    margin: 0;
+    width: 194px;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-align: unset;
+}
+
+.roadmap__road-img {
+    display: block;
+    position: absolute;
+}
+
+.roadmap__container img:nth-of-type(1) {
+    top: 139px;
+    left: 91px;
+}
+
+.roadmap__container img:nth-of-type(2) {
+    top: 368px;
+    left: 324px;
+}
+
+.roadmap__container img:nth-of-type(3) {
+    top: 242px;
+    left: 528px;
+}
+
+.roadmap__container img:nth-of-type(4) {
+    top: 109px;
+    left: 650px;
+}
+
+.roadmap__container img:nth-of-type(5) {
+    top: 161px;
+    left: 953px;
+}
+
+.roadmap__controls {
+    display: none;
+}
